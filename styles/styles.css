@@ -16,7 +16,6 @@ html {
 .perfil {
 	display: flex;
 	justify-content: center;
-	padding: 2rem;
 }
 
 .img {
@@ -30,6 +29,9 @@ html {
 	padding-top: 1rem;
 
 }
+a {
+	text-decoration: none;
+}
 
 h1 {
 	text-align: center;
@@ -37,6 +39,9 @@ h1 {
 
 .logo {
 	max-width: 80%;
+}
+#fotoPerfil {
+	max-width: 13rem;
 }
 
 /* ENLACES */
@@ -87,6 +92,7 @@ h1 {
 	justify-content: space-between;
 	align-items: center;
 	padding-right: 0rem;
+	font-size: 24px;
 }
 
 @media (max-width: 960px) {
@@ -106,7 +112,7 @@ h1 {
 
 }
 
-@media (max-width: 468px) {
+@media (max-width: 560px) {
 
 	.enlaces {
 		width: 81%;
