@@ -1,0 +1,119 @@
+/* PALETA DE COLORES */
+:root {
+
+	--shadow: #507abd;
+	--bgColor: #5d84c3;
+	--ribbonColor: #fff;
+
+}
+
+/* GLOBALES  */
+html {
+	background-color: var(--bgColor);
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.perfil {
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.img {
+	max-width: 50px;
+	margin-right: 23px;
+}
+
+.contTarjeta {
+	display: flex;
+	flex-direction: column;
+	padding-top: 1rem;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+.logo {
+	max-width: 80%;
+}
+
+/* ENLACES */
+
+.contEnlaces {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	padding-top: 5rem;
+
+}
+
+.texto {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	color: var(--ribbonColor);
+}
+
+.titulo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: var(--ribbonColor);
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.enlaces {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 19%;
+	background-color: var(--ribbonColor);
+	border-radius: 1.5rem;
+	padding: 0rem;
+	margin-right: 2rem;
+}
+
+.enlace1,
+.enlace2,
+.enlace3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 0rem;
+}
+
+@media (max-width: 960px) {
+
+	.contEnlaces {
+		flex-direction: column;
+		align-items: center;
+		align-content: space-between;
+		height: 13rem;
+		padding-top: 0rem;
+	}
+
+	.enlaces {
+		width: 39%;
+
+	}
+
+}
+
+@media (max-width: 468px) {
+
+	.enlaces {
+		width: 81%;
+		background-color: var(--ribbonColor);
+		border-radius: 1.5rem;
+		padding: 0rem;
+		margin-right: 0rem;
+	}
+
+}
