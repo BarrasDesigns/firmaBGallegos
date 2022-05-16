@@ -9,7 +9,7 @@
 
 /* GLOBALES  */
 html {
-	background-color: var(--bgColor);
+	background: linear-gradient(90deg, rgba(29,190,182,1) 0%, rgba(5,153,146,1) 100%); ;
 	font-family: 'Maven Pro', sans-serif;
 }
 
