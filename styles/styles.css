@@ -11,6 +11,7 @@
 html {
 	background: linear-gradient(90deg, rgba(29,190,182,1) 0%, rgba(5,153,146,1) 100%); ;
 	font-family: 'Maven Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .perfil {
@@ -42,12 +43,13 @@ h2 {
 	max-width: 80%;
 }
 #fotoPerfil {
-	max-width: 7rem;
+	max-width: 6rem;
 }
 
 .contVideo {
 	display: flex;
 	justify-content: center;
+	margin-top: -10px;
 }
 
 /* ENLACES */
@@ -57,7 +59,7 @@ h2 {
 	flex-direction: row;
 	width: 100%;
 	justify-content: space-around;
-	padding-top: 5rem;
+	padding-top: 2rem;
 
 }
 
@@ -72,6 +74,7 @@ h2 {
 	display: flex;
 	justify-content: center;
 	color: var(--ribbonColor);
+	margin-top: -26px;
 }
 
 .titulo {
@@ -82,6 +85,7 @@ h2 {
 	color: var(--ribbonColor);
 	text-transform: uppercase;
 	text-align: center;
+	font-family: 'Roboto' !important ;
 
 }
 
@@ -123,6 +127,9 @@ h2 {
 	video {
 		max-width: 70%;
 	}
+	.contVideo {
+		margin-bottom: 17px;
+	}
 
 }
 
@@ -134,6 +141,9 @@ h2 {
 		border-radius: 1.5rem;
 		padding: 0rem;
 		margin-right: 0rem;
+	}
+	.contVideo {
+		margin-bottom: 17px;
 	}
 
 }

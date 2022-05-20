@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&family=Roboto&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>LinkerMedical</title>
@@ -27,7 +29,7 @@
 
 
                 <div class="texto">
-                    <h1>Cambiamos el modo de ofrecer los servicios de salud.</h1>
+                    <h1>Cambiamos el modo de brindar servicios de salud.</h1>
                 </div>
                 <div class="slogan">
                     <h2>"Turismo Médico"</h2>
@@ -42,11 +44,21 @@
                 </div>
 
                 <div class="contVideo">
-                    <video src="./video/LinkerMedic Final.mp4" width="640" height="480" 1 autoplay="autoplay"
-                        controls="True"></video>
+
+                    <video id="mivideo" controls="true" width="640" class="contVideo">
+
+                        <source src="./video/LinkerMedic Final.mp4" poster="./img/medic-logo.png" type="video/mp4" />
+                    </video>
                 </div>
 
+
                 <div class="contEnlaces">
+
+                    <a id="fullscreen" class="enlaces" href="#">
+                        <img class="img" src="./img/reproductor-de-video.png" alt="videoplayer">
+                        <div class="enlace0">Video Promocional</div>
+
+                    </a>
 
                     <a class="enlaces" href="http://linkermedic.com/">
 
@@ -78,6 +90,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
