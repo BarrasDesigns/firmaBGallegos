@@ -45,6 +45,11 @@ h2 {
 	max-width: 7rem;
 }
 
+.contVideo {
+	display: flex;
+	justify-content: center;
+}
+
 /* ENLACES */
 
 .contEnlaces {
@@ -114,6 +119,9 @@ h2 {
 	.enlaces {
 		width: 39%;
 
+	}
+	video {
+		max-width: 70%;
 	}
 
 }
