@@ -6,11 +6,11 @@ function getFullscreenElement() {
 }
 
 function iniciar() { 
-    var boton=document.getElementById('fullscreen'); 
+    let boton=document.getElementById('fullscreen'); 
     boton.addEventListener('click', presionar, false); 
  } 
  function presionar() { 
-    var video=document.getElementById('mivideo'); 
+    let video=document.getElementById('mivideo'); 
     video.play(); 
  } 
  window.addEventListener('load', iniciar, false); 
@@ -19,6 +19,7 @@ function toggleFullscreen() {
     if (getFullscreenElement()) {
         document.exitFullscreen();
     } else {
+        document.getElementById("mivideo").requestFullscreen().catch(console.log);
         document.getElementById("mivideo").requestFullscreen().catch((e) => {
             HTMLMediaElement.play();
         });
