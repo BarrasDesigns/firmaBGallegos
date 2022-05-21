@@ -11,6 +11,7 @@
 html {
 	background: linear-gradient(90deg, rgba(29, 190, 182, 1) 0%, rgba(5, 153, 146, 1) 100%);
 	;
+	font-family: 'Caveat', cursive;
 	font-family: 'Maven Pro', sans-serif;
 	font-family: 'Roboto', sans-serif;
 }
@@ -48,6 +49,7 @@ h2 {
 #fotoPerfil {
 	max-width: 6rem;
 }
+
 .contVideo {
 	display: flex;
 	justify-content: center;
@@ -86,7 +88,6 @@ h2 {
 	justify-content: center;
 	align-items: center;
 	color: var(--ribbonColor);
-	text-transform: uppercase;
 	text-align: center;
 	font-family: 'Roboto' !important;
 
@@ -108,9 +109,8 @@ h2 {
 .enlace2,
 .enlace3 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
-	padding-right: 0rem;
 	font-size: 24px;
 }
 
