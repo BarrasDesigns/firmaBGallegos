@@ -21,6 +21,7 @@ function toggleFullscreen() {
     } else {
         document.getElementById("mivideo").requestFullscreen().catch(console.log);
         document.getElementById("mivideo").requestFullscreen().catch((e) => {
+            document.getElementById("mivideo").style.display = "block";
             HTMLMediaElement.play();
         });
     }
@@ -38,3 +39,5 @@ function addEvent(element, evnt, funct){
       'click',
       function () { toggleFullscreen();  }
   );
+
+  document.getElementById("mivideo").style.display = "none";
