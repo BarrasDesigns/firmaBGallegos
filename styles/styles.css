@@ -97,9 +97,9 @@ h2 {
 
 .texto {
 	display: flex;
-	flex-direction: column;
+	/* flex-direction: column; */
 	justify-content: center;
-	align-items: flex-start;
+	/* align-items: flex-start; */
 	color: var(--ribbonColor);
 }
 
@@ -134,7 +134,7 @@ h2 {
 }
 .enlaces:hover{
 	background-color: var(--ribbonColor);
-	
+
 }
 
 .enlace0,
