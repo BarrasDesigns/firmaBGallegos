@@ -98,11 +98,11 @@ h2 {
 .texto {
 	display: flex;
 	/* flex-direction: column; */
-	justify-content: flex-start;
+	justify-content: center;
 	/* align-items: flex-start; */
 	color: var(--ribbonColor);
-	font-size: 9px;
-	margin-top: -20px;
+	font-size: 15px;
+	margin-top: -30px;
 
 }
 
