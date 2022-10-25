@@ -98,9 +98,12 @@ h2 {
 .texto {
 	display: flex;
 	/* flex-direction: column; */
-	justify-content: center;
+	justify-content: flex-start;
 	/* align-items: flex-start; */
 	color: var(--ribbonColor);
+	font-size: 9px;
+	margin-top: -20px;
+
 }
 
 .slogan {
@@ -118,6 +121,8 @@ h2 {
 	color: var(--ribbonColor);
 	text-align: center;
 	font-family: 'Roboto' !important;
+	margin-top: 200px;
+	font-size:15px;
 
 }
 
