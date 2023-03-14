@@ -9,11 +9,20 @@
 
 /* GLOBALES  */
 html {
-	background: linear-gradient(90deg, rgba(29, 190, 182, 1) 0%, rgba(5, 153, 146, 1) 100%);
-	;
 	font-family: 'Caveat', cursive;
 	font-family: 'Maven Pro', sans-serif;
 	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: linear-gradient(90deg, rgba(29, 190, 182, 1) 0%, rgba(5, 153, 146, 1) 100%);
+	;
+
+}
+
+.wrapper {
+	max-width: 95%;
+	margin: 0 auto;
 }
 
 .perfil {
@@ -59,10 +68,27 @@ h2 {
 	max-width: 6rem;
 }
 
+section {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .contVideo {
 	display: flex;
 	justify-content: center;
 	margin-top: -10px;
+}
+
+.cards1 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	
+
+}
+.card{
+	margin-top: 20px!important;
+	margin-bottom: 20px!important	;
 }
 
 /* HERO */
@@ -85,7 +111,6 @@ h2 {
 }
 
 /* ENLACES */
-
 .contEnlaces {
 	display: flex;
 	flex-direction: row;
@@ -94,6 +119,41 @@ h2 {
 	padding-top: 2rem;
 
 }
+
+.enlace {
+	display: flex;
+
+}
+
+.web {
+	/* background: url("../img/www_icon.png") no-repeat; */
+}
+
+.web:hover {
+	/* background: url("../img/www_icon_hover.png") no-repeat; */
+	width: 120px;
+	height: 120px;
+}
+
+/* .whatsapp {
+	width: 120px;
+	height: 120px;
+	background: url("../img/whatsapp_icon.png") no-repeat;
+}
+
+.whatsapp:hover {
+	background: url("../img/whatsap_icon_hover.png") no-repeat;
+}
+
+.facebook {
+	width: 120px;
+	height: 120px;
+	background: url("../img/facebook_icon.png") no-repeat;
+}
+
+.facebook:hover {
+	background: url("../img/facebook_icon_hover.png") no-repeat;
+} */
 
 .texto {
 	display: flex;
@@ -122,7 +182,7 @@ h2 {
 	text-align: center;
 	font-family: 'Roboto' !important;
 	margin-top: 200px;
-	font-size:15px;
+	font-size: 15px;
 
 }
 
@@ -137,7 +197,8 @@ h2 {
 	margin-right: -2px;
 	font-size: 25px;
 }
-.enlaces:hover{
+
+.enlaces:hover {
 	background-color: var(--ribbonColor);
 
 }
@@ -175,6 +236,10 @@ h2 {
 		margin-bottom: 17px;
 	}
 
+	.cards1 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
 }
 
 @media (max-width: 560px) {
@@ -190,5 +255,16 @@ h2 {
 	.contVideo {
 		margin-bottom: 17px;
 	}
+
+	.cards1 {
+		grid-template-columns: repeat(1, 1fr);
+
+
+	}
+
+	.card {
+		width: 14rem !important;
+	}
+
 
 }

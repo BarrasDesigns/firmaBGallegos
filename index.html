@@ -11,7 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat&family=Maven+Pro:wght@400;500&family=Roboto&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Turismo Médico</title>
@@ -19,95 +20,147 @@
 
 <body>
     <main>
-
-
-
-
-        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
-            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-center">
-            <section class="mainContainer">
+        <div class="wrapper">
+            <section>
 
                 <div class="hero">
                     <div class="contTarjeta">
-                        <img class="logo" src="./img/medic-logo.png" alt="logo">
-
-
+                        <!-- <img class="logo" src="./img/medic-logo.png" alt="logo"> -->
                         <!-- <div class="texto">
                             <h1>Turismo Salud</h1>
                         </div> -->
                         <!-- <div class="slogan">
                             <h2>"Turismo Salud"</h2>
-
+                            
                         </div> -->
                         <!-- <div class="perfil">
                             
-                        <img id="fotoPerfil" src="./img/perfil.svg" alt="perfil">
-                    </div> -->
+                            <img id="fotoPerfil" src="./img/perfil.svg" alt="perfil">
+                        </div> -->
                         <div class="titulo">
-                            <h2>CEO. Elizabeth Gallegos</h2>
+                            <h2>Elizabeth Gallegos</h2>
                         </div>
-                        <div class="texto">
-
+                        <!-- <div class="texto">
+                            
                             <p>Turismo Salud</p>
-                        </div>
+                    </div> -->
 
                         <!-- <div class="contVideo">
 
-                    <video id="mivideo" controls="true" width="640" class="contVideo">
+                        <video id="mivideo" controls="true" width="640" class="contVideo">
 
-                        <source src="./video/LinkerMedic Final.mp4" poster="./img/medic-logo.png" type="video/mp4" />
-                    </video>
-                </div> -->
+                            <source src="./video/LinkerMedic Final.mp4" poster="./img/medic-logo.png" type="video/mp4" />
+                        </video>
+                    </div> -->
 
 
                     </div>
                 </div>
-                <div class="contEnlaces">
+            </section>
 
+            <section class="contEnlaces">
 
-                    <a class="enlaces" href="http://linkermedic.com/">
-                        <i class="fa-sharp fa-solid fa-globe">
+                <a href="http://linkermedic.com/">
+                    <div class="enlace">
+                        <div class="web"></div>
+                        <h5>LinkerMedic</h5>
 
-
-                            <!-- <img class="img" src="./img/web-link.png" alt="enlace"> -->
-                        </i>
-                        <div class="enlace1">LinkerMedic</div>
-
+                    </div>
+                </a>
+                <div class="enlace">
+                    <a href="https://walink.co/2c3531">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp"
+                            width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                            <path
+                                d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                        </svg></i>
+                        <!-- <div class="whatsapp"></div> -->
                     </a>
 
-                    <a class="enlaces" href="https://walink.co/2c3531">
-                        <i class="fa-brands fa-whatsapp">
-
-                            <!-- <img class="img" src="./img/whatsapp.png" alt="wattsapp"> -->
-                        </i>
-                        <div class="enlace2">WhatsApp</div>
-
-                    </a>
-
-                    <a class="enlaces" href="https://www.facebook.com/LinkerMedic-109451005064386/">
-                        <i class="fa-brands fa-facebook">
-
-                            <!-- <img class="img" src="./img/facebook.png" alt="facebook"> -->
-                        </i>
-                        <div class="enlace3">Facebook</div>
-                    </a>
-                    <!-- <a id="fullscreen" class="enlaces" href="#">
-                        <img class="img" style="margin-left: -4%;" src="./img/reproductor-de-video.png"
-                        alt="videoplayer">
-                        <div style="margin-right:4%;" class="enlace0">Spot</div>
-                        
-                    </a> -->
                 </div>
+                <div class="enlace">
+                    <a href="https://www.facebook.com/LinkerMedic-109451005064386/">
+                        <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                            </svg></i>
+                        <!-- <div class="facebook"></div> -->
+                    </a>
 
+                </div>
+                <div class="enlace">
+                    <a href="./pdf/catalogo.pdf">
+                        <div class="enlace">
+                            <div class="web">
+                                <h5>Nuestro Catálogo</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+
+
+
+            <section>
+                <div class="cards1">
+
+                    <div class="card text-bg-dark" style="width: 18rem;">
+                        <img src="./img/index1.png" class="card-img-top" alt="index1">
+                        <div class="card-body">
+                            <p class="card-text">Tour a la cola de caballo.</p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark" style="width: 18rem;">
+                        <img src="./img/index2.png" class="card-img-top" alt="index1">
+                        <div class="card-body">
+                            <p class="card-text">Grutas de García.</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-bg-dark" style="width: 18rem;">
+                        <img src="./img/index3.png" class="card-img-top" alt="index1">
+                        <div class="card-body">
+                            <p class="card-text">City Tour.</p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark" style="width: 18rem;">
+                        <img src="./img/index4.png" class="card-img-top" alt="index1">
+                        <div class="card-body">
+                            <p class="card-text">City Tour nocturno.</p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark" style="width: 18rem;">
+                        <img src="./img/index5.png" class="card-img-top" alt="index1">
+                        <div class="card-body">
+                            <p class="card-text">Aguas Termales.</p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark" style="width: 18rem;">
+                        <img src="./img/index6.png" class="card-img-top" alt="index1">
+                        <div class="card-body">
+                            <p class="card-text">Cuatro Ciénegas.</p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark" style="width: 18rem;">
+                        <img src="./img/index7.png" class="card-img-top" alt="index1">
+                        <div class="card-body">
+                            <p class="card-text">Grutas de Bustamante.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        </section>
     </main>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
     <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
